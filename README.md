@@ -1,4 +1,4 @@
-# IOS-Weather-App
+# IOS Weather App
 
 This is a simple SwiftUI-based iOS weather app that fetches real-time weather forecast data using the [OpenWeather API](https://openweathermap.org/api). Users can enter a city name and view the current temperature, weather description, and an appropriate weather icon.
 
