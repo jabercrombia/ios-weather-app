@@ -12,7 +12,7 @@ class WeatherViewModel: ObservableObject {
     @Published var dailyForecasts: [DailyForecast] = []
 
     func fetchWeather(for city: String) {
-        let apiKey = "f0b69f87ed2b40b5a21d41a0a78f413a"
+        let apiKey = "api key goes here"
         let urlString = "https://api.openweathermap.org/data/2.5/forecast?q=\(city)&appid=\(apiKey)&units=imperial"
 
         guard let url = URL(string: urlString) else { return }

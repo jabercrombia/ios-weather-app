@@ -26,22 +26,7 @@ This is a simple SwiftUI-based iOS weather app that fetches real-time weather fo
 
 ## API Key Setup
 
-This app uses the OpenWeather API. To avoid hardcoding secrets, follow one of these options:
-
-### Option 1: `.xcconfig` (Recommended)
-1. Create a file called `Config.xcconfig` and add:
-    ```ini
-    API_KEY = your_api_key_here
-    ```
-2. In `Info.plist`, add:
-    ```xml
-    <key>API_KEY</key>
-    <string>$(API_KEY)</string>
-    ```
-3. Access it in code:
-    ```swift
-    let apiKey = Bundle.main.infoDictionary?["API_KEY"] as? String ?? ""
-    ```
+This app uses the OpenWeather API.
 
 ---
 
@@ -49,7 +34,7 @@ This app uses the OpenWeather API. To avoid hardcoding secrets, follow one of th
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/ios-weather-app.git
+    git clone https://github.com/jabercrombia/ios-weather-app.git
     cd ios-weather-app
     ```
 
@@ -63,7 +48,7 @@ This app uses the OpenWeather API. To avoid hardcoding secrets, follow one of th
 
 ## Sample Screenshot
 
-> Add a screenshot of your app here
+![Weather App Screenshot](screenshots/results.png)
 
 ---
 
