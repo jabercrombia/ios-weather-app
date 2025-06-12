@@ -1,5 +1,7 @@
+import SwiftUI
+
 @main
-struct WeatherAppMain: App {
+struct WeatherApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
